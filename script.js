@@ -1,5 +1,5 @@
 
-const API_KEY = "931ded8a221e698de2c37817a58113e6";
+const API_KEY = "8f6f66a9ead852981e7d00ca25ac6256";
 const BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
 
 const cityInput = document.getElementById("city-input");
@@ -61,3 +61,10 @@ cityInput.addEventListener("keypress", (event) => {
     getWeather(city);
   }
 });
+.creator {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #ffffff;
+  opacity: 0.9;
+}
